@@ -179,13 +179,114 @@ Rationale for Packages in LFS:
       <td>This package contains the GNU generic library support script. It wraps the complexity of using shared libraries into a consistent, portable interface. It is needed by the test suites in other LFS packages.</td>
     </tr>
     <tr>
-      <td><b></b></td>
-      <td></td>
+      <td><b>MB4</b></td>
+      <td>This package provides a general text macro processor useful as a build tool for other programs.</td>
     </tr>
     <tr>
-      <td><b></b></td>
-      <td></td>
+      <td><b>Make</b></td>
+      <td>This package contains a program for direcitng the building of packages. It is required by almost every package in LFS.</td>
+    </tr>
+    <tr>
+      <td><b>Man-DB</b></td>
+      <td>This package contains programs for finding and viewing man pages. It was chosen instead of the man package because of its superior internationalization capabilities. It supplies the man program.</td>
+    </tr>
+    <tr>
+      <td><b>Man-pages</b></td>
+      <td>This package provides the actual contents of the basic Linux man pages.</td>
+    </tr>
+    <tr>
+      <td><b>MPC</b></td>
+      <td>This package supplies arithmetic functions for complex numbers. It is required by GCC.</td>
+    </tr>
+    <tr>
+      <td><b>MPFR</b></td>
+      <td>This package contains functions for multiple precision arhitmetic. It is required by GCC.</td>
+    </tr>
+    <tr>
+      <td><b>Ncurses</b></td>
+      <td>This package contains libraries for terminal-independent handling of character screens. It is often used to provide cursor control for a menuing system. It is needed by a number of the packages in LFS.</td>
+    </tr>
+    <tr>
+      <td><b>Patch</b></td>
+      <td>This package contains a program for modifying or creating files by applying a patch file typically created by the diff program. It is needed by the build procedure for several LFS packages.</td>
+    </tr>
+    <tr>
+      <td><b>Perl</b></td>
+      <td>This package is an interpreter for the runtime language PERL.It is needed for the installation and test suites of several LFS packages.</td>
+    </tr>
+    <tr>
+      <td><b>Pkg-config</b></td>
+      <td>The pkg-config package contains a tool for passing the include path and/or library paths to build tools during the configure and make file execution.</td>
+    </tr>
+    <tr>
+      <td><b>Procps</b></td>
+      <td>The procps package contains the free, kill, oldps, ps, skill, snice, sysctl, tload, top, uptime, vmstat, w and watch programs.</td>
+    </tr>
+    <tr>
+      <td><b>Psmisc</b></td>
+      <td>This package produces programs for displaying information about running processes. The programs are useful for system administration.</td>
+    </tr>
+    <tr>
+      <td><b>Readline</b></td>
+      <td>This package is a set of libraries that offer command-line editing and history capabilities. It is used by Bash.</td>
+    </tr>
+    <tr>
+      <td><b>Sed</b></td>
+      <td>This package allows editing of text without opening it in a text editor. It is also needed by many LFS packages configure scripts.</td>
+    </tr>
+    <tr>
+      <td><b>Shadow</b></td>
+      <td>This package contains programs for handling password securely.</td>
+    </tr>
+    <tr>
+      <td><b>Sysklogd</b></td>
+      <td>This package supplies a program for logging system messages, such as those emitted by the kernel or deamon process when unusal events occur.</td>
+    </tr>
+    <tr>
+      <td><b>Sysvinit</b></td>
+      <td>This package provides the init program, the parent of all the other processes on a running Linux system.</td>
+    </tr>
+    <tr>
+      <td><b>Tar</b></td>
+      <td>This package provides archiving and extraction capabilitiesof virtually all the packages used in LFS.</td>
+    </tr>
+    <tr>
+      <td><b>Tcl</b></td>
+      <td>This package contains the Tool Command Language used in many test suites.</td>
+    </tr>
+    <tr>
+      <td><b>Textinfo</b></td>
+      <td>This package supplies programs for reading, writing and converting info pages. It is used in the installation procedures of many LFS packages.</td>
+    </tr>
+    <tr>
+      <td><b>Time Zone Data (tzdata)</b></td>
+      <td>This is a python package containing zic-complied for the IANA time zone database.</td>
+    </tr>
+    <tr>
+      <td><b>Udev-lfs Tarball</b></td>
+      <td>The Udev package contains programs for dynamic creation of device nodes.</td>
+    </tr>
+    <tr>
+      <td><b>Util-linux</b></td>
+      <td>The Util-linux package contains miscellaneous utility programs. Among them are utilities for handling for system, consoles, partitions and messages.</td>
+    </tr>
+    <tr>
+      <td><b>Vim</b></td>
+      <td>This package provides an editor.</td>
+    </tr>
+    <tr>
+      <td><b>XML::Parser</b></td>
+      <td>This package is a Perl module that interfaces with Expat.</td>
+    </tr>
+    <tr>
+      <td><b>Xz Utils</b></td>
+      <td>This package contains programs for compressing and decompressing files. It provides the highest compression generally available and is useful for decompressing packages in XZ or LZMA format.</td>
+    </tr>
+    <tr>
+      <td><b>Zlib</b></td>
+      <td>This package contains compression and decompression routines used by some programs.</td>
     </tr>
   </tbody>
+
 </table>
 
