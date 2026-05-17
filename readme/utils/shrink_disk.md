@@ -2,13 +2,13 @@
 
 <table align="center">
 <tr>
-<td width="50%" align="center">
+<td width="70%" align="center">
 
 <img src="../../readme_images/03_image.png" width="100%" style="; border-radius:12px;">
 
 </td>
 
-<td width="50%" align="center">
+<td width="30%" align="center">
 
 Open your virtual machine settings (while its not running) and click to "add a hard disk" icon.
 </td>
@@ -17,12 +17,12 @@ Open your virtual machine settings (while its not running) and click to "add a h
 
 <table align="center">
 <tr>
-<td width="50%" align="center">
+<td width="30%" align="center">
 
 Click to create.
 </td>
 
-<td width="50%" align="center">
+<td width="70%" align="center">
 <img src="../../readme_images/04_image.png" width="100%" style="; border-radius:12px;">
 
 </td>
@@ -31,13 +31,13 @@ Click to create.
 
 <table align="center">
 <tr>
-<td width="50%" align="center">
+<td width="70%" align="center">
 
 <img src="../../readme_images/05_image.png" width="100%" style="; border-radius:12px;">
 
 </td>
 
-<td width="50%" align="center">
+<td width="30%" align="center">
 
 Give your size first and then click to finish.
 </td>
@@ -47,11 +47,11 @@ Give your size first and then click to finish.
 
 <table align="center">
 <tr>
-<td width="50%" align="center">
+<td width="30%" align="center">
 Now your new disk is created but not attached. So choose your new disk and click yo create button.
 </td>
 
-<td width="50%" align="center">
+<td width="70%" align="center">
 <img src="../../readme_images/06_image.png" width="100%" style="; border-radius:12px;">
 
 </td>
@@ -61,13 +61,13 @@ Now your new disk is created but not attached. So choose your new disk and click
 
 <table align="center">
 <tr>
-<td width="50%" align="center">
+<td width="70%" align="center">
 
 <img src="../../readme_images/07_image.png" width="100%" style="; border-radius:12px;">
 
 </td>
 
-<td width="50%" align="center">
+<td width="30%" align="center">
 Here is the final result how its looks.
 </td>
 </tr>
