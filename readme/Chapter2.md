@@ -137,14 +137,12 @@ mkfs -v -t ext4 /dev/<xxx>
 <tr>
 <td width="50%" align="center" style="text-align:center;">
 
-<img src="../readme_images/readme_gifs/boot_filesystem.gif" width="100%" style="border-radius:12px;" alt="Root partition creation GIF">
+<img src="../readme_images/readme_gifs/boot_filesystem.gif" width="100%" style="border-radius:12px;" controls></img>
 <p style="text-align:center;">Boot</p>
 
 </td>
 <td width="50%" align="center" style="text-align:center;">
-
-<img src="../readme_images/readme_gifs/root_filesystem.gif" width="100%" style="border-radius:12px;" alt="Root partition creation GIF">
-
+<img src="../readme_images/readme_gifs/root_filesystem.gif" width="100%" style="border-radius:12px;" controls></img>
 
 <p style="text-align:center;">Root</p>
 
