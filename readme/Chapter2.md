@@ -219,4 +219,18 @@ Ensure that it is enabled using the swapon command:
 </p>
 <br>
 
+
+
+<table align="center">
+<tr>
+<td width="70%" align="center" style="text-align:center;">
+  <img src="../readme_images/11_image.png" width="100%" style="; border-radius:12px;">
+</td>
+
+<td width="30%" align="center" style="text-align:center;">
+
 Now that the new LFS partition is open for business, it's time to download the packages!
+
+</td>
+</tr>
+</table>
