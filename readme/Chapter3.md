@@ -46,10 +46,40 @@ chmod -v a+wt $LFS/sources
 
 To be able to download this packages and patches firstly we should fetch those two files and place them in this current created directory:
 
-<p align="center">
-  <img src="../readme_images/readme_gifs/fetch_links.gif" width="65%" style="border-radius:12px;" alt="Root partition creation GIF">
-</p>
+<table align="center">
+<tr>
+<td width="50%" align="center" style="text-align:center;">
+<img src="../readme_images/16_image.png" width="100%" style="border-radius:12px;" controls></img>
+</td>
+<td width="50%" align="center" style="text-align:center;">
+<img src="../readme_images/17_image.png" width="100%" style="border-radius:12px;" controls></img>
+</td>
+</tr>
+<tr>
+<td width="50%" align="center" style="text-align:center;">
+<img src="../readme_images/18_image.png" width="100%" style="border-radius:12px;" controls></img>
+</td>
+<td width="50%" align="center" style="text-align:center;">
+<img src="../readme_images/19_image.png" width="100%" style="border-radius:12px;" controls></img>
+</td>
+</tr>
+<tr>
+<td width="50%" align="center" style="text-align:center;">
+<img src="../readme_images/20_image.png" width="100%" style="border-radius:12px;" controls></img>
+</td>
+<td width="50%" align="center" style="text-align:center;">
+<img src="../readme_images/21_image.png" width="100%" style="border-radius:12px;" controls></img>
+</td>
+</tr>
+</table>
 <br>
+
+That should fetch those two files and place them in this current directory. To check it:
+
+<p align="center">
+  <img src="../readme_images/22_image.png" width="70%" style="border-radius:12px;" controls></img>
+</p>
+
 
 To download all of the packages and patches by using wget-list-sysv as an input to the wget command, use:
 
