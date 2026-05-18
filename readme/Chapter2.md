@@ -84,22 +84,22 @@ Now continue for <b>create partitons.</b> We will create root, /boot and swap.
 
 We will use [fdisk](https://man.archlinux.org/man/fdisk.8) command for manipulate disk partition table. Start with boot:
 
-<div style="display: flex; justify-content: center;">
+<p align="center">
   <img src="../readme_images/readme_gifs/boot.gif" width="80%" style="border-radius:12px;" alt="Boot process GIF">
-</div>
+</p>
 <br>
 Your /boot partition succesfully created and result is /dev/sdb1. In a same way you have to create your swap partition but after the creation of swap partition you have to change the type. You have to change type with "-t" option and use "L" for list of types. After i type -t i list my types with L and in the list Linux swap is 19. So here is the steps:
 
-<div style="display: flex; justify-content: center;">
+<p align="center">
   <img src="../readme_images/readme_gifs/swap.gif" width="80%" style="border-radius:12px;" alt="Swap process GIF">
-</div>
+</p>
 <br>
 
 And after created boot and swap lastly we have to create our root. With a same steps i create my root partition but this time i give my rest of size for root.
 
-<div style="display: flex; justify-content: center;">
+<p align="center">
   <img src="../readme_images/readme_gifs/root.gif" width="80%" style="border-radius:12px;" alt="Root partition creation GIF">
-</div>
+</p>
 <br>
 
 Finally when i see my 3 partition created sucessfully i write (save) them to disk.
@@ -156,9 +156,9 @@ For swap partition, there is no need to format it. It will need to be initialize
 mkswap /dev/<yyy>
 ```
 
-<div style="display: flex; justify-content: center;">
+<p align="center">
   <img src="../readme_images/readme_gifs/swap_filesystem.gif" width="70%" style="border-radius:12px;" alt="Root partition creation GIF">
-</div>
+</p>
 <br>
 
 ### Setting the $LFS Variable and the Umask
