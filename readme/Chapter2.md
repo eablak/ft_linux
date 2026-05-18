@@ -182,3 +182,41 @@ Setting the umask to 022 ensures that newly created files and directories are on
   <img src="../readme_images/10_image.png" width="65%" style="; border-radius:12px;">
 </p>
 
+### Mounting the New Partition
+
+Now that a file system has been created, the partition must be mounted so the host system can access it. Create the mount point and mount the LFS file system with these commands:
+
+```bash
+mkdir -pv $LFS
+mount -v -t ext4 /dev/<xxx> $LFS
+```
+
+<p align="center">
+  <img src="../readme_images/readme_gifs/mounting.gif" width="65%" style="border-radius:12px;" alt="Root partition creation GIF">
+</p>
+<br>
+
+Set the owner and permission mode of the $LFS directory to root and 755 in case the host distro has been configured to use a different default for mkfs:
+
+```bash
+chown root:root $LFS
+chmod 755 $LFS
+```
+
+<p align="center">
+  <img src="../readme_images/readme_gifs/permission_mode.gif" width="65%" style="border-radius:12px;" alt="Root partition creation GIF">
+</p>
+<br>
+
+Ensure that it is enabled using the swapon command:
+
+```bash
+/sbin/swapon -v /dev/<zzz>
+```
+
+<p align="center">
+  <img src="../readme_images/readme_gifs/swapon.gif" width="65%" style="border-radius:12px;" alt="Root partition creation GIF">
+</p>
+<br>
+
+Now that the new LFS partition is open for business, it's time to download the packages!
