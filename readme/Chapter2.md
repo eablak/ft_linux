@@ -85,20 +85,20 @@ Now continue for <b>create partitons.</b> We will create root, /boot and swap.
 We will use [fdisk](https://man.archlinux.org/man/fdisk.8) command for manipulate disk partition table. Start with boot:
 
 <p align="center">
-  <img src="../readme_images/readme_gifs/boot.gif" width="80%" style="border-radius:12px;" alt="Boot process GIF">
+  <img src="../readme_images/readme_gifs/boot.gif" width="65%" style="border-radius:12px;" alt="Boot process GIF">
 </p>
 <br>
 Your /boot partition succesfully created and result is /dev/sdb1. In a same way you have to create your swap partition but after the creation of swap partition you have to change the type. You have to change type with "-t" option and use "L" for list of types. After i type -t i list my types with L and in the list Linux swap is 19. So here is the steps:
 
 <p align="center">
-  <img src="../readme_images/readme_gifs/swap.gif" width="80%" style="border-radius:12px;" alt="Swap process GIF">
+  <img src="../readme_images/readme_gifs/swap.gif" width="65%" style="border-radius:12px;" alt="Swap process GIF">
 </p>
 <br>
 
 And after created boot and swap lastly we have to create our root. With a same steps i create my root partition but this time i give my rest of size for root.
 
 <p align="center">
-  <img src="../readme_images/readme_gifs/root.gif" width="80%" style="border-radius:12px;" alt="Root partition creation GIF">
+  <img src="../readme_images/readme_gifs/root.gif" width="65%" style="border-radius:12px;" alt="Root partition creation GIF">
 </p>
 <br>
 
@@ -157,7 +157,7 @@ mkswap /dev/<yyy>
 ```
 
 <p align="center">
-  <img src="../readme_images/readme_gifs/swap_filesystem.gif" width="70%" style="border-radius:12px;" alt="Root partition creation GIF">
+  <img src="../readme_images/readme_gifs/swap_filesystem.gif" width="65%" style="border-radius:12px;" alt="Root partition creation GIF">
 </p>
 <br>
 
@@ -179,6 +179,6 @@ umask 022
 Setting the umask to 022 ensures that newly created files and directories are only writable by their owner, but are readable and searchable (only for directories) by anyone.
 
 <p align="center">
-  <img src="../readme_images/10_image.png" width="80%" style="; border-radius:12px;">
+  <img src="../readme_images/10_image.png" width="65%" style="; border-radius:12px;">
 </p>
 
