@@ -113,3 +113,8 @@ popd
 </tr>
 </table>
 
+In my case 2 file can't load. So i copy their link and install them manually. And after it all files are OK.
+
+<p align="center">
+  <img src="../readme_images/23_image.png" width="70%" style="border-radius:12px;" controls></img>
+</p>
