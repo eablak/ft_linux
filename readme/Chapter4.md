@@ -147,5 +147,3 @@ source ~/.bash_profile
 <p align="center">
   <img src="../readme_images/33_image.png" width="70%" style="border-radius:12px;" controls></img>
 </p>
-
-And my makeflag number
