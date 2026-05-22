@@ -1,5 +1,3 @@
-This documentation created accordingly [Linux From Scratch Handbook.](https://www.linuxfromscratch.org/lfs/view/stable/index.html) You can check that one to learn detailly.
-
 # Preparing for the Build
 
 ## Chapter 3: Packages and Patches
