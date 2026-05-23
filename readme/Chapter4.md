@@ -32,12 +32,12 @@ mkdir -pv $LFS/tools
 <tr>
 <td width="50%" align="center" style="text-align:center;">
 
-<img src="../readme_images/24_image.png" width="100%" style="border-radius:12px;" controls></img>
+<img src="../readme_images/chapter4/24_image.png" width="100%" style="border-radius:12px;" controls></img>
 </td>
 
 <td width="50%" align="center" style="text-align:center;">
 
-<img src="../readme_images/25_image.png" width="100%" style="border-radius:12px;" controls></img>
+<img src="../readme_images/chapter4/25_image.png" width="100%" style="border-radius:12px;" controls></img>
 
 </td>
 </tr>
@@ -53,7 +53,7 @@ useradd -s /bin/bash -g lfs -m -k /dev/null lfs
 ```
 
 <p align="center">
-  <img src="../readme_images/26_image.png" width="70%" style="border-radius:12px;" controls></img>
+  <img src="../readme_images/chapter4/26_image.png" width="70%" style="border-radius:12px;" controls></img>
 </p>
 
 If you want to log in as lfs or switch to lfs from a non-root user, you need to set a password for lfs. Issue the following command as the root user to set the password:
@@ -63,7 +63,7 @@ passwd lfs
 ```
 
 <p align="center">
-  <img src="../readme_images/27_image.png" width="70%" style="border-radius:12px;" controls></img>
+  <img src="../readme_images/chapter4/27_image.png" width="70%" style="border-radius:12px;" controls></img>
 </p>
 
 Grant lfs full access to all the directories under $LFS by making lfs the owner:
@@ -77,7 +77,7 @@ esac
 ```
 
 <p align="center">
-  <img src="../readme_images/28_image.png" width="70%" style="border-radius:12px;" controls></img>
+  <img src="../readme_images/chapter4/28_image.png" width="70%" style="border-radius:12px;" controls></img>
 </p>
 
 Start a shell running as user lfs.
@@ -97,7 +97,7 @@ EOF
 ```
 
 <p align="center">
-  <img src="../readme_images/30_image.png" width="70%" style="border-radius:12px;" controls></img>
+  <img src="../readme_images/chapter4/30_image.png" width="70%" style="border-radius:12px;" controls></img>
 </p>
 
 
@@ -119,7 +119,7 @@ EOF
 ```
 
 <p align="center">
-  <img src="../readme_images/31_image.png" width="70%" style="border-radius:12px;" controls></img>
+  <img src="../readme_images/chapter4/31_image.png" width="70%" style="border-radius:12px;" controls></img>
 </p>
 
 
@@ -132,7 +132,7 @@ EOF
 ```
 
 <p align="center">
-  <img src="../readme_images/32_image.png" width="70%" style="border-radius:12px;" controls></img>
+  <img src="../readme_images/chapter4/32_image.png" width="70%" style="border-radius:12px;" controls></img>
 </p>
 
 To ensure the environment is fully prepared for building the temporary tools, force the bash shell to read the new user profile:
@@ -143,5 +143,5 @@ source ~/.bash_profile
 ```
 
 <p align="center">
-  <img src="../readme_images/33_image.png" width="70%" style="border-radius:12px;" controls></img>
+  <img src="../readme_images/chapter4/33_image.png" width="70%" style="border-radius:12px;" controls></img>
 </p>

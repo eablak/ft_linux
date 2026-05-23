@@ -18,7 +18,7 @@ mkdir -v $LFS/sources
 ```
 </td>
 <td width="50%" align="center" style="text-align:center;">
-<img src="../readme_images/12_image.png" width="100%" style="border-radius:12px;" controls></img>
+<img src="../readme_images/chapter3/12_image.png" width="100%" style="border-radius:12px;" controls></img>
 
 </td>
 </tr>
@@ -36,7 +36,7 @@ chmod -v a+wt $LFS/sources
 ```
 </td>
 <td width="50%" align="center" style="text-align:center;">
-<img src="../readme_images/13_image.png" width="100%" style="border-radius:12px;" controls></img>
+<img src="../readme_images/chapter3/13_image.png" width="100%" style="border-radius:12px;" controls></img>
 
 </td>
 </tr>
@@ -47,26 +47,26 @@ To be able to download this packages and patches firstly we should fetch those t
 <table align="center">
 <tr>
 <td width="50%" align="center" style="text-align:center;">
-<img src="../readme_images/16_image.png" width="100%" style="border-radius:12px;" controls></img>
+<img src="../readme_images/chapter3/16_image.png" width="100%" style="border-radius:12px;" controls></img>
 </td>
 <td width="50%" align="center" style="text-align:center;">
-<img src="../readme_images/17_image.png" width="100%" style="border-radius:12px;" controls></img>
-</td>
-</tr>
-<tr>
-<td width="50%" align="center" style="text-align:center;">
-<img src="../readme_images/18_image.png" width="100%" style="border-radius:12px;" controls></img>
-</td>
-<td width="50%" align="center" style="text-align:center;">
-<img src="../readme_images/19_image.png" width="100%" style="border-radius:12px;" controls></img>
+<img src="../readme_images/chapter3/17_image.png" width="100%" style="border-radius:12px;" controls></img>
 </td>
 </tr>
 <tr>
 <td width="50%" align="center" style="text-align:center;">
-<img src="../readme_images/20_image.png" width="100%" style="border-radius:12px;" controls></img>
+<img src="../readme_images/chapter3/18_image.png" width="100%" style="border-radius:12px;" controls></img>
 </td>
 <td width="50%" align="center" style="text-align:center;">
-<img src="../readme_images/21_image.png" width="100%" style="border-radius:12px;" controls></img>
+<img src="../readme_images/chapter3/19_image.png" width="100%" style="border-radius:12px;" controls></img>
+</td>
+</tr>
+<tr>
+<td width="50%" align="center" style="text-align:center;">
+<img src="../readme_images/chapter3/20_image.png" width="100%" style="border-radius:12px;" controls></img>
+</td>
+<td width="50%" align="center" style="text-align:center;">
+<img src="../readme_images/chapter3/21_image.png" width="100%" style="border-radius:12px;" controls></img>
 </td>
 </tr>
 </table>
@@ -75,7 +75,7 @@ To be able to download this packages and patches firstly we should fetch those t
 That should fetch those two files and place them in this current directory. To check it:
 
 <p align="center">
-  <img src="../readme_images/22_image.png" width="70%" style="border-radius:12px;" controls></img>
+  <img src="../readme_images/chapter3/22_image.png" width="70%" style="border-radius:12px;" controls></img>
 </p>
 
 
@@ -101,10 +101,10 @@ popd
 <tr>
 <td width="50%" align="center" style="text-align:center;">
 
-<img src="../readme_images/14_image.png" width="100%" style="border-radius:12px;" controls></img>
+<img src="../readme_images/chapter3/14_image.png" width="100%" style="border-radius:12px;" controls></img>
 </td>
 <td width="50%" align="center" style="text-align:center;">
-<img src="../readme_images/15_image.png" width="100%" style="border-radius:12px;" controls></img>
+<img src="../readme_images/chapter3/15_image.png" width="100%" style="border-radius:12px;" controls></img>
 
 
 </td>
@@ -114,5 +114,5 @@ popd
 In my case 2 file can't load. So i copy their link and install them manually. And after it all files are OK.
 
 <p align="center">
-  <img src="../readme_images/23_image.png" width="70%" style="border-radius:12px;" controls></img>
+  <img src="../readme_images/chapter3/23_image.png" width="70%" style="border-radius:12px;" controls></img>
 </p>

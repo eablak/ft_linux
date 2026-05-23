@@ -5,7 +5,7 @@
 ### Binutils-2.45 - Pass 1
 
 <p align="center">
-  <img src="../readme_images/34_image.png" width="70%" style="border-radius:12px;" controls></img>
+  <img src="../readme_images/chapter5/34_image.png" width="70%" style="border-radius:12px;" controls></img>
 </p>
 
 The Binutils documentation recommends building Binutils in a dedicated build directory:
@@ -16,7 +16,7 @@ cd       build
 ```
 
 <p align="center">
-  <img src="../readme_images/35_image.png" width="70%" style="border-radius:12px;" controls></img>
+  <img src="../readme_images/chapter5/35_image.png" width="70%" style="border-radius:12px;" controls></img>
 </p>
 
 Now prepare Binutils for compilation:
@@ -33,13 +33,13 @@ time {../configure --prefix=$LFS/tools \
 ```
 
 <p align="center">
-  <img src="../readme_images/36_image.png" width="70%" style="border-radius:12px;" controls></img>
+  <img src="../readme_images/chapter5/36_image.png" width="70%" style="border-radius:12px;" controls></img>
 </p>
 
 We can remove the directory:
 
 <p align="center">
-  <img src="../readme_images/37_image.png" width="70%" style="border-radius:12px;" controls></img>
+  <img src="../readme_images/chapter5/37_image.png" width="70%" style="border-radius:12px;" controls></img>
 </p>
 
 So that's our first package built binutils done.
@@ -49,7 +49,7 @@ So that's our first package built binutils done.
 So once again we are going to through the motions of extracting the package of archive:
 
 <p align="center">
-  <img src="../readme_images/38_image.png" width="70%" style="border-radius:12px;" controls></img>
+  <img src="../readme_images/chapter5/38_image.png" width="70%" style="border-radius:12px;" controls></img>
 </p>
 
 Rename the resulting directories so the GCC build procedures will automatically use them:
@@ -64,7 +64,7 @@ mv -v mpc-1.3.1 mpc
 ```
 
 <p align="center">
-  <img src="../readme_images/39_image.png" width="70%" style="border-radius:12px;" controls></img>
+  <img src="../readme_images/chapter5/39_image.png" width="70%" style="border-radius:12px;" controls></img>
 </p>
 
 ```bash
@@ -76,7 +76,7 @@ case $(uname -m) in
 esac
 ```
 <p align="center">
-  <img src="../readme_images/40_image.png" width="70%" style="border-radius:12px;" controls></img>
+  <img src="../readme_images/chapter5/40_image.png" width="70%" style="border-radius:12px;" controls></img>
 </p>
 
 The GCC documentation recommends building GCC in a dedicated build directory:
@@ -87,7 +87,7 @@ cd       build
 ```
 
 <p align="center">
-  <img src="../readme_images/41_image.png" width="70%" style="border-radius:12px;" controls></img>
+  <img src="../readme_images/chapter5/41_image.png" width="70%" style="border-radius:12px;" controls></img>
 </p>
 
 Prepare GCC for compilation:
@@ -116,7 +116,7 @@ Prepare GCC for compilation:
 ```
 
 <p align="center">
-  <img src="../readme_images/42_image.png" width="70%" style="border-radius:12px;" controls></img>
+  <img src="../readme_images/chapter5/42_image.png" width="70%" style="border-radius:12px;" controls></img>
 </p>
 
 Compile GCC by running:
@@ -126,7 +126,7 @@ make
 ```
 
 <p align="center">
-  <img src="../readme_images/43_image.png" width="70%" style="border-radius:12px;" controls></img>
+  <img src="../readme_images/chapter5/43_image.png" width="70%" style="border-radius:12px;" controls></img>
 </p>
 
 Install the package:
@@ -136,7 +136,7 @@ make install
 ```
 
 <p align="center">
-  <img src="../readme_images/44_image.png" width="70%" style="border-radius:12px;" controls></img>
+  <img src="../readme_images/chapter5/44_image.png" width="70%" style="border-radius:12px;" controls></img>
 </p>
 
 ```bash
@@ -146,13 +146,13 @@ cat gcc/limitx.h gcc/glimits.h gcc/limity.h > \
 ```
 
 <p align="center">
-  <img src="../readme_images/45_image.png" width="70%" style="border-radius:12px;" controls></img>
+  <img src="../readme_images/chapter5/45_image.png" width="70%" style="border-radius:12px;" controls></img>
 </p>
 
 That's the end of gcc. So, delete that directory and its contents.
 
 <p align="center">
-  <img src="../readme_images/46_image.png" width="70%" style="border-radius:12px;" controls></img>
+  <img src="../readme_images/chapter5/46_image.png" width="70%" style="border-radius:12px;" controls></img>
 </p>
 
 ### Linux-6.16.1 API Headers
@@ -160,7 +160,7 @@ That's the end of gcc. So, delete that directory and its contents.
 We extract the linux package
 
 <p align="center">
-  <img src="../readme_images/47_image.png" width="70%" style="border-radius:12px;" controls></img>
+  <img src="../readme_images/chapter5/47_image.png" width="70%" style="border-radius:12px;" controls></img>
 </p>
 
 Make sure there are no stale files embedded in the package:
@@ -170,7 +170,7 @@ make mrproper
 ```
 
 <p align="center">
-  <img src="../readme_images/48_image.png" width="70%" style="border-radius:12px;" controls></img>
+  <img src="../readme_images/chapter5/48_image.png" width="70%" style="border-radius:12px;" controls></img>
 </p>
 
 Now extract the user-visible kernel headers from the source. 
@@ -182,19 +182,19 @@ cp -rv usr/include $LFS/usr
 ```
 
 <p align="center">
-  <img src="../readme_images/49_image.png" width="70%" style="border-radius:12px;" controls></img>
+  <img src="../readme_images/chapter5/49_image.png" width="70%" style="border-radius:12px;" controls></img>
 </p>
 
 That's done. So again, go back to sources and delete the directory:
 
 <p align="center">
-  <img src="../readme_images/50_image.png" width="70%" style="border-radius:12px;" controls></img>
+  <img src="../readme_images/chapter5/50_image.png" width="70%" style="border-radius:12px;" controls></img>
 </p>
 
 ### Glibc-2.42
 
 <p align="center">
-  <img src="../readme_images/51_image.png" width="70%" style="border-radius:12px;" controls></img>
+  <img src="../readme_images/chapter5/51_image.png" width="70%" style="border-radius:12px;" controls></img>
 </p>
 
 First, create a symbolic link for LSB compliance:
@@ -212,14 +212,14 @@ esac
 <tr>
 <td width="50%" align="center" style="text-align:center;">
 <img 
-src="../readme_images/52_image.png" 
+src="../readme_images/chapter5/52_image.png" 
 width="100%" style="; border-radius:12px;">
 <p style="text-align:center;">LFS command</p>
 </td>
 <td width="50%" align="center" style="text-align:center;">
 
 <img 
-src="../readme_images/53_image.png" 
+src="../readme_images/chapter5/53_image.png" 
 width="100%" style="; border-radius:12px;">
 <p style="text-align:center;">/mnt/lfs/lib64 exsist as a symlink so i recreate it and run the command</p>
 
@@ -234,7 +234,7 @@ patch -Np1 -i ../glibc-2.42-fhs-1.patch
 ```
 
 <p align="center">
-  <img src="../readme_images/54_image.png" width="70%" style="border-radius:12px;" controls></img>
+  <img src="../readme_images/chapter5/54_image.png" width="70%" style="border-radius:12px;" controls></img>
 </p>
 
 The Glibc documentation recommends building Glibc in a dedicated build directory:
@@ -245,7 +245,7 @@ cd       build
 ```
 
 <p align="center">
-  <img src="../readme_images/55_image.png" width="70%" style="border-radius:12px;" controls></img>
+  <img src="../readme_images/chapter5/55_image.png" width="70%" style="border-radius:12px;" controls></img>
 </p>
 
 Ensure that the ldconfig and sln utilities are installed into /usr/sbin:
@@ -255,7 +255,7 @@ echo "rootsbindir=/usr/sbin" > configparms
 ```
 
 <p align="center">
-  <img src="../readme_images/56_image.png" width="70%" style="border-radius:12px;" controls></img>
+  <img src="../readme_images/chapter5/56_image.png" width="70%" style="border-radius:12px;" controls></img>
 </p>
 
 Prepare Glibc for compilation:
@@ -271,7 +271,7 @@ Prepare Glibc for compilation:
 ```
 
 <p align="center">
-  <img src="../readme_images/57_image.png" width="70%" style="border-radius:12px;" controls></img>
+  <img src="../readme_images/chapter5/57_image.png" width="70%" style="border-radius:12px;" controls></img>
 </p>
 
 Compile the package
@@ -281,7 +281,7 @@ make
 ```
 
 <p align="center">
-  <img src="../readme_images/58_image.png" width="70%" style="border-radius:12px;" controls></img>
+  <img src="../readme_images/chapter5/58_image.png" width="70%" style="border-radius:12px;" controls></img>
 </p>
 
 Install the package
@@ -291,7 +291,7 @@ make DESTDIR=$LFS install
 ```
 
 <p align="center">
-  <img src="../readme_images/59_image.png" width="70%" style="border-radius:12px;" controls></img>
+  <img src="../readme_images/chapter5/59_image.png" width="70%" style="border-radius:12px;" controls></img>
 </p>
 
 ```bash
@@ -301,7 +301,7 @@ readelf -l a.out | grep ': /lib'
 ```
 
 <p align="center">
-  <img src="../readme_images/60_image.png" width="70%" style="border-radius:12px;" controls></img>
+  <img src="../readme_images/chapter5/60_image.png" width="70%" style="border-radius:12px;" controls></img>
 </p>
 
 Some checks
@@ -315,7 +315,7 @@ grep found dummy.log
 ```
 
 <p align="center">
-  <img src="../readme_images/61_image.png" width="70%" style="border-radius:12px;" controls></img>
+  <img src="../readme_images/chapter5/61_image.png" width="70%" style="border-radius:12px;" controls></img>
 </p>
 
 Once everything is working correctly, clean up the test files:
@@ -325,19 +325,19 @@ rm -v a.out dummy.log
 ```
 
 <p align="center">
-  <img src="../readme_images/62_image.png" width="70%" style="border-radius:12px;" controls></img>
+  <img src="../readme_images/chapter5/62_image.png" width="70%" style="border-radius:12px;" controls></img>
 </p>
 
 
 <p align="center">
-  <img src="../readme_images/63_image.png" width="70%" style="border-radius:12px;" controls></img>
+  <img src="../readme_images/chapter5/63_image.png" width="70%" style="border-radius:12px;" controls></img>
 </p>
 
 ### Libstdc++ from GCC-15.2.0
 
 
 <p align="center">
-  <img src="../readme_images/64_image.png" width="70%" style="border-radius:12px;" controls></img>
+  <img src="../readme_images/chapter5/64_image.png" width="70%" style="border-radius:12px;" controls></img>
 </p>
 
 Create a separate build directory for Libstdc++ and enter it:
@@ -348,7 +348,7 @@ cd       build
 ```
 
 <p align="center">
-  <img src="../readme_images/65_image.png" width="70%" style="border-radius:12px;" controls></img>
+  <img src="../readme_images/chapter5/65_image.png" width="70%" style="border-radius:12px;" controls></img>
 </p>
 
 Compilation:
@@ -365,7 +365,7 @@ Compilation:
 ```
 
 <p align="center">
-  <img src="../readme_images/66_image.png" width="70%" style="border-radius:12px;" controls></img>
+  <img src="../readme_images/chapter5/66_image.png" width="70%" style="border-radius:12px;" controls></img>
 </p>
 
 ```bash
@@ -373,7 +373,7 @@ make
 ```
 
 <p align="center">
-  <img src="../readme_images/67_image.png" width="70%" style="border-radius:12px;" controls></img>
+  <img src="../readme_images/chapter5/67_image.png" width="70%" style="border-radius:12px;" controls></img>
 </p>
 
 Install the library:
@@ -383,7 +383,7 @@ make DESTDIR=$LFS install
 ```
 
 <p align="center">
-  <img src="../readme_images/68_image.png" width="70%" style="border-radius:12px;" controls></img>
+  <img src="../readme_images/chapter5/68_image.png" width="70%" style="border-radius:12px;" controls></img>
 </p>
 
 
@@ -394,9 +394,9 @@ rm -v $LFS/usr/lib/lib{stdc++{,exp,fs},supc++}.la
 ```
 
 <p align="center">
-  <img src="../readme_images/69_image.png" width="70%" style="border-radius:12px;" controls></img>
+  <img src="../readme_images/chapter5/69_image.png" width="70%" style="border-radius:12px;" controls></img>
 </p>
 
 <p align="center">
-  <img src="../readme_images/70_image.png" width="70%" style="border-radius:12px;" controls></img>
+  <img src="../readme_images/chapter5/70_image.png" width="70%" style="border-radius:12px;" controls></img>
 </p>

@@ -17,14 +17,14 @@ Firstly we have to be sure our host has enough requirements. To check my host sy
 <tr>
 <td width="50%" align="center" style="text-align:center;">
 <img 
-src="../readme_images/00_image.png" 
+src="../readme_images/chapter2/00_image.png" 
 width="100%" style="; border-radius:12px;">
 <p style="text-align:center;">Before</p>
 </td>
 <td width="50%" align="center" style="text-align:center;">
 
 <img 
-src="../readme_images/01_image.png" 
+src="../readme_images/chapter2/01_image.png" 
 width="100%" style="; border-radius:12px;">
 <p style="text-align:center;">After</p>
 
@@ -47,7 +47,7 @@ You can check from [here](/readme/utils/shrink_disk.md) to how i did this shrink
 <tr>
 <td width="50%" align="center" style="text-align:center;">
 <img 
-src="../readme_images/02_image.png" 
+src="../readme_images/chapter2/02_image.png" 
 width="100%" style="; border-radius:12px;">
 <p style="text-align:center;">Before</p>
 
@@ -55,7 +55,7 @@ width="100%" style="; border-radius:12px;">
 <td width="50%" align="center" style="text-align:center;">
 
 <img 
-src="../readme_images/08_image.png" 
+src="../readme_images/chapter2/08_image.png" 
 width="100%" style="; border-radius:12px;">
 
 <p style="text-align:center;">After</p>
@@ -115,7 +115,7 @@ Finally when i see my 3 partition created sucessfully i write (save) them to dis
 <td width="50%" align="center" style="text-align:center;">
 
 <img 
-src="../readme_images/09_image.png" 
+src="../readme_images/chapter2/09_image.png" 
 width="100%" style="; border-radius:12px;">
 
 
@@ -179,7 +179,7 @@ umask 022
 Setting the umask to 022 ensures that newly created files and directories are only writable by their owner, but are readable and searchable (only for directories) by anyone.
 
 <p align="center">
-  <img src="../readme_images/10_image.png" width="65%" style="; border-radius:12px;">
+  <img src="../readme_images/chapter2/10_image.png" width="65%" style="; border-radius:12px;">
 </p>
 
 ### Mounting the New Partition
@@ -224,7 +224,7 @@ Ensure that it is enabled using the swapon command:
 <table align="center">
 <tr>
 <td width="70%" align="center" style="text-align:center;">
-  <img src="../readme_images/11_image.png" width="100%" style="; border-radius:12px;">
+  <img src="../readme_images/chapter2/11_image.png" width="100%" style="; border-radius:12px;">
 </td>
 
 <td width="30%" align="center" style="text-align:center;">

@@ -4,7 +4,7 @@
 <tr>
 <td width="70%" align="center">
 
-<img src="../../readme_images/03_image.png" width="100%" style="; border-radius:12px;">
+<img src="../../readme_images/utils/03_image.png" width="100%" style="; border-radius:12px;">
 
 </td>
 
@@ -23,7 +23,7 @@ Click to create.
 </td>
 
 <td width="70%" align="center">
-<img src="../../readme_images/04_image.png" width="100%" style="; border-radius:12px;">
+<img src="../../readme_images/utils/04_image.png" width="100%" style="; border-radius:12px;">
 
 </td>
 </tr>
@@ -33,7 +33,7 @@ Click to create.
 <tr>
 <td width="70%" align="center">
 
-<img src="../../readme_images/05_image.png" width="100%" style="; border-radius:12px;">
+<img src="../../readme_images/utils/05_image.png" width="100%" style="; border-radius:12px;">
 
 </td>
 
@@ -52,7 +52,7 @@ Now your new disk is created but not attached. So choose your new disk and click
 </td>
 
 <td width="70%" align="center">
-<img src="../../readme_images/06_image.png" width="100%" style="; border-radius:12px;">
+<img src="../../readme_images/utils/06_image.png" width="100%" style="; border-radius:12px;">
 
 </td>
 </tr>
@@ -63,7 +63,7 @@ Now your new disk is created but not attached. So choose your new disk and click
 <tr>
 <td width="70%" align="center">
 
-<img src="../../readme_images/07_image.png" width="100%" style="; border-radius:12px;">
+<img src="../../readme_images/utils/07_image.png" width="100%" style="; border-radius:12px;">
 
 </td>
 
