@@ -13,7 +13,7 @@ While doing this project all steps created by following accordingly [Linux From 
 
 While we are creating LFS, we will make some changes on the disk, perform mointing operations or update important botting files on our host machine. Any mistake in this actions can broke the host system. To prevent it i prefer to use virtual machine. Therfore, i set up Ubuntu 22 in VirtualBox and i will use this Ubuntu 22 for my host machine anymore.
 
-### Step1: [Preparing for the Build](PreparingForTheBuild/PreparingForTheBuild.md)
+### Step1: [Preparing for the Build](readme/PreparingForTheBuild/PreparingForTheBuild.md)
 
 Describes how to prepare for the building process—making a partition, downloading the packages, and compiling temporary tools.
 
