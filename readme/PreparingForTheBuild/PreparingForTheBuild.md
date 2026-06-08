@@ -44,10 +44,16 @@ export LFS=/mnt/lfs
 Chapter 5-6:
 
 ```bash
+sudo -i
+
 export LFS=/mnt/lfs
 
-sudo mount -v -t ext4 /dev/sdb1 $LFS
-sudo su - lfs
+mount -v -t ext4 /dev/sdb3 $LFS
+mount -v -t ext4 /dev/sdb1 $LFS/boot
+
+swapon /dev/sdb2
+
+su - lfs
 ```
 
 Chapter 7-10:
@@ -208,8 +214,12 @@ width="80%" style="; border-radius:12px;">
 
 In the next Chapters 5–10, we will install the required software packages and patches for LFS. Instead of downloading them one by one, we will create a directory and download them automatically using the wget-list file. These downloaded archives contains source code that we will compile in the next chapters. For now, just download all packages and patches into the designed directories.
 
-Follow the [book](https://www.linuxfromscratch.org/lfs/view/stable/chapter03/chapter03.html) and [tutorial](https://www.youtube.com/watch?v=mzoOKycUQbg&list=PLyc5xVO2uDsD1rWqX90pmzUZEdRWnM8QU&index=3).
+Follow the [chapter](https://www.linuxfromscratch.org/lfs/view/stable/chapter03/chapter03.html) and [tutorial](https://www.youtube.com/watch?v=mzoOKycUQbg&list=PLyc5xVO2uDsD1rWqX90pmzUZEdRWnM8QU&index=3).
 
 ## Chapter 4: Final Preparations
 
+In this chapter we will build a temporary system. This temporary system will be use in next chapters. The aim for creating it is to avoid from any corruption in host system. Therfore, we will create a set of directories in $LFS (in which we will install the temporary tools), add an unprivileged user, and create an appropriate build environment for that user.
 
+Follow the [chapter](https://www.linuxfromscratch.org/lfs/view/stable/chapter04/chapter04.html) and [tutorial](https://www.youtube.com/watch?v=ob6qRxPXSBc&list=PLyc5xVO2uDsD1rWqX90pmzUZEdRWnM8QU&index=4).
+
+<i>Note: If you rebooted do your mounting process in chapter 2 and switch to lfs user "su - lfs" and continue.  </i>
