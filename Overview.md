@@ -3,7 +3,7 @@
 In this project, the goal is to build our own Linux operating system. 
 
 <p align="center">
-  <img src="../readme_images/image.png" alt="LFS build process" style="max-width:100%; border-radius:12px;">
+  <img src="readme_images/image.png" alt="LFS build process" style="max-width:100%; border-radius:12px;">
   <br>
   <em>Here is the 3 main step for build LFS.</em>
 </p>
