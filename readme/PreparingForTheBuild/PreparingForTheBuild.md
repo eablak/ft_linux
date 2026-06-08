@@ -201,3 +201,15 @@ Here is the result:
 src="../../readme_images/PreparingForTheBuild/05_image.png" 
 width="80%" style="; border-radius:12px;">
 </p>
+
+<i>Note: These mounting processes are not-permanent after rebooting.</i>
+
+## Chapter 3: Packages and Patches
+
+In the next Chapters 5–10, we will install the required software packages and patches for LFS. Instead of downloading them one by one, we will create a directory and download them automatically using the wget-list file. These downloaded archives contains source code that we will compile in the next chapters. For now, just download all packages and patches into the designed directories.
+
+Follow the [book](https://www.linuxfromscratch.org/lfs/view/stable/chapter03/chapter03.html) and [tutorial](https://www.youtube.com/watch?v=mzoOKycUQbg&list=PLyc5xVO2uDsD1rWqX90pmzUZEdRWnM8QU&index=3).
+
+## Chapter 4: Final Preparations
+
+
