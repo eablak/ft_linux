@@ -17,7 +17,7 @@ While we are creating LFS, we will make some changes on the disk, perform mointi
 
 Describes how to prepare for the building process—making a partition, downloading the packages, and compiling temporary tools.
 
-### Step2: Building the LFS Cross Toolchain and Temporary Tools
+### Step2: [Building the LFS Cross Toolchain and Temporary Tools](readme/CrossToolchain&TemporaryTools/CrossToolchain&TemporaryTools.md)
 Provides instructions for building the tools needed for constructing the final LFS system.
 
 ### Step3: Building the LFS System
