@@ -59,15 +59,30 @@ su - lfs
 Chapter 7-10:
 
 ```bash
-export LFS=/mnt/lfs
-mount /dev/sdb1 $LFS
+sudo -i
 
-chroot "$LFS" /usr/bin/env -i \
-HOME=/root \
-TERM="$TERM" \
-PS1='(lfs chroot) \u:\w\$ ' \
-PATH=/usr/bin:/usr/sbin \
-/bin/bash --login
+export LFS=/mnt/lfs
+
+mount -v -t ext4 /dev/sdb3 $LFS
+mount -v -t ext4 /dev/sdb1 $LFS/boot
+
+swapon /dev/sdb2
+
+mount -v --bind /dev $LFS/dev
+
+mount -vt devpts devpts -o gid=5,mode=0620 $LFS/dev/pts
+mount -vt proc proc $LFS/proc
+mount -vt sysfs sysfs $LFS/sys
+mount -vt tmpfs tmpfs $LFS/run
+
+chroot "$LFS" /usr/bin/env -i   \
+    HOME=/root                  \
+    TERM="$TERM"                \
+    PS1='(lfs chroot) \u:\w\$ ' \
+    PATH=/usr/bin:/usr/sbin     \
+    MAKEFLAGS="-j$(nproc)"      \
+    TESTSUITEFLAGS="-j$(nproc)" \
+    /bin/bash --login
 ```
 
 You don't need to do anything right now and this commands will be explained in later chapters. For now, just keep in mind to if you reboot your machine, repate non-premanent procedures.
