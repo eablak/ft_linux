@@ -31,4 +31,4 @@ In this chapter, the goal is finalize temporary LFS sytem and with this one we c
 
 Follow the [book](https://www.linuxfromscratch.org/lfs/view/stable/chapter07/chapter07.html) and [tutorial](https://www.youtube.com/watch?v=RWZ6R7gwOHk&list=PLyc5xVO2uDsD1rWqX90pmzUZEdRWnM8QU&index=7) to compete this chapter.
 
-<i>Note: If you reboot after this chapter do the mounting processes from previous chapters and also mounting process in this chapter which is virtual kernel file systems commands also run change root command and then continue for chapter 8. Necessary commands explained in previous reamde file on [Building LFS in Stages](readme/PreparingForTheBuild/PreparingForTheBuild.md) title.</i>
+<i>Note: If you reboot after this chapter do the mounting processes from previous chapters and also mounting process in this chapter which is virtual kernel file systems commands also run change root command and then continue for chapter 8. Necessary commands explained in previous reamde file on [Building LFS in Stages](../PreparingForTheBuild/PreparingForTheBuild.md) title.</i>
