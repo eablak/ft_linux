@@ -20,5 +20,5 @@ Describes how to prepare for the building process—making a partition, download
 ### Step2: [Building the LFS Cross Toolchain and Temporary Tools](readme/CrossToolchain&TemporaryTools/CrossToolchain&TemporaryTools.md)
 Provides instructions for building the tools needed for constructing the final LFS system.
 
-### Step3: Building the LFS System
+### Step3: [Building the LFS System](readme/BuildingTheLFSSystem.md/BuildingTheLFSSystem.md)
 Compiling and installing all the packages one by one, setting up the boot scripts, and installing the kernel.
