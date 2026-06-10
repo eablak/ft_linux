@@ -51,7 +51,7 @@ export LFS=/mnt/lfs
 mount -v -t ext4 /dev/sdb3 $LFS
 mount -v -t ext4 /dev/sdb1 $LFS/boot
 
-swapon /dev/sdb2
+swapon -v /dev/sdb2
 
 su - lfs
 ```
@@ -66,7 +66,7 @@ export LFS=/mnt/lfs
 mount -v -t ext4 /dev/sdb3 $LFS
 mount -v -t ext4 /dev/sdb1 $LFS/boot
 
-swapon /dev/sdb2
+swapon -v /dev/sdb2
 
 mount -v --bind /dev $LFS/dev
 
