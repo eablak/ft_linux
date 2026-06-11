@@ -80,3 +80,34 @@ width="100%" style="; border-radius:12px;">
 
 </tr>
 </table>
+
+## Chapter 10: Making the LFS System Bootable
+
+It is time to make the LFS system bootable. This chapter discusses creating the /etc/fstab file, building a kernel for the new LFS system, and installing the GRUB boot loader so that the LFS system can be selected for booting at startup.
+
+Follow the [book](https://www.linuxfromscratch.org/lfs/view/stable/chapter10/chapter10.html) and [tutorial](https://www.youtube.com/watch?v=9Jx8r-fbS5s&list=PLyc5xVO2uDsD1rWqX90pmzUZEdRWnM8QU&index=13) to complete this chapter.
+
+<i>Note: my system using bios so i follow that commands.</i>
+
+Here is how i did my configurations:
+
+
+<table align="center">
+<tr>
+
+<td width="50%" align="center" style="text-align:center;">
+<img 
+src="../../readme_images/BuildingTheLFSSystem/07_image.png" 
+width="100%" style="; border-radius:12px;">
+</td>
+
+<td width="50%" align="center" style="text-align:center;">
+<img 
+src="../../readme_images/BuildingTheLFSSystem/08_image.png" 
+width="100%" style="; border-radius:12px;">
+</td>
+
+</tr>
+</table>
+
+Now you have a working LFS.
