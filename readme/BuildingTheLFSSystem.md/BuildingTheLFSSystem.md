@@ -51,12 +51,14 @@ width="100%" style="; border-radius:12px;">
 <img 
 src="../../readme_images/BuildingTheLFSSystem/02_image.png" 
 width="100%" style="; border-radius:12px;">
+<p style="text-align:center;">Hostname must be student login!</p>
 </td>
 
 <td width="50%" align="center" style="text-align:center;">
 <img 
 src="../../readme_images/BuildingTheLFSSystem/03_image.png" 
 width="100%" style="; border-radius:12px;">
+<p style="text-align:center;">Use your hostname</p>
 </td>
 
 </tr>
@@ -87,6 +89,26 @@ It is time to make the LFS system bootable. This chapter discusses creating the 
 
 Follow the [book](https://www.linuxfromscratch.org/lfs/view/stable/chapter10/chapter10.html) and [tutorial](https://www.youtube.com/watch?v=9Jx8r-fbS5s&list=PLyc5xVO2uDsD1rWqX90pmzUZEdRWnM8QU&index=13) to complete this chapter.
 
+*** 
+
+!! While doing menuconfig configuration processes, named your kernel as "vmlinuz-<linux_version>-<student_login>". and change the rest of the commands accordingly your filename.
+
+    cp -iv arch/x86/boot/bzImage /boot/vmlinuz-6.16.1-lfs-12.4
+    cp -iv System.map /boot/System.map-6.16.1
+    cp -iv .config /boot/config-6.16.1
+
+***
+
+!! Pdf wants:
+
+- The kernel sources must be in /usr/src/kernel-$(version).
+- The kernel version must contain your student login in it. Something like ‘Linux
+kernel 4.1.2-<student_login>‘.
+
+But handbook says "/usr/src/linux symlink will not create (it's for old versions). So create your folder with your specific name and move your kernel build folder into there. (Do this process before rebooting)"
+
+***
+
 <i>Note: my system using bios so i follow that commands.</i>
 
 Here is how i did my configurations:
@@ -105,6 +127,7 @@ width="100%" style="; border-radius:12px;">
 <img 
 src="../../readme_images/BuildingTheLFSSystem/08_image.png" 
 width="100%" style="; border-radius:12px;">
+<p style="text-align:center;">Use your vmlinuz-linux_version-student_login filename for menuentry linux line</p>
 </td>
 
 </tr>
