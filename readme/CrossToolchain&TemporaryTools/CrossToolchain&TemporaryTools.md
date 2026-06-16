@@ -27,7 +27,11 @@ Follow the [book](https://www.linuxfromscratch.org/lfs/view/stable/chapter06/cha
 
 ## Chapter 7: Entering Chroot and Building Additional Temporary Tools
 
-In this chapter, the goal is finalize temporary LFS sytem and with this one we can start the build real LFS system. With using chroot command we will work inside our isolated LFs enviroment instead of host operating system. Within this enviroment we will create necessary directories, files and build last temporary tools. After this chapter complete, we will be ready to start building real LFS system.
+In this chapter, the goal is finalize temporary LFS sytem and with this one we can start the build real LFS system. So we will build last missing things for temporary system.
+
+With using chroot command we will work inside our isolated LFS enviroment instead of host operating system. Within this enviroment we will create necessary directories, files and build last temporary tools. After this chapter complete, we will be ready to start building real LFS system.
+
+However, this isolated LFS enviroment needs to properly run on kernel. This step also handeled via Virtual Kernel File System section.
 
 Follow the [book](https://www.linuxfromscratch.org/lfs/view/stable/chapter07/chapter07.html) and [tutorial](https://www.youtube.com/watch?v=RWZ6R7gwOHk&list=PLyc5xVO2uDsD1rWqX90pmzUZEdRWnM8QU&index=7) to compete this chapter.
 

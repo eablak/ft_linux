@@ -196,7 +196,12 @@ sudo mkswap /dev/sdb2
 
 ### Setting the $LFS Variable and the Umask
 
-Follow the [chapter](https://www.linuxfromscratch.org/lfs/view/stable/chapter02/aboutlfs.html) for commands.
+Follow the [chapter](https://www.linuxfromscratch.org/lfs/view/stable/chapter02/aboutlfs.html) for commands. Or just run:
+
+```bash
+export LFS=/mnt/lfs
+umask 022
+```
 
 ### Mounting the New Partition
 
